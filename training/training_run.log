@@ -1,0 +1,107 @@
+Model: RNN(hidden=32,tanh)+additive_attention+dense(sigmoid), numpy+pandas
+
+Iteration 1/5
+Time: 25.7981 sec
+Threshold: 0.010
+Transaction-level confusion matrix: {'TP': 132, 'FP': 0, 'TN': 8868, 'FN': 0}
+User-level confusion matrix: {'TP': 2, 'FP': 0, 'TN': 8, 'FN': 0}
+User latency avg hours: 0.0
+User P002: actual_scam_user=1 predicted_scam_user=1 correct=1
+User P007: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P024: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P031: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P039: actual_scam_user=1 predicted_scam_user=1 correct=1
+User P041: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P049: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P069: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P084: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P095: actual_scam_user=0 predicted_scam_user=0 correct=1
+TP/FP user explanations:
+User P002 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $0.01 (2024-06-09 09:27:22, TX00086349) to $14.82 (2024-06-10 16:28:00, TX00086630). This change may indicate a potential fraudulent trend and is worth reviewing.
+User P039 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $0.27 (2024-05-03 16:53:35, TX00080440) to $13.48 (2024-05-04 20:13:15, TX00080645). This change may indicate a potential fraudulent trend and is worth reviewing.
+
+Iteration 2/5
+Time: 25.8394 sec
+Threshold: 0.010
+Transaction-level confusion matrix: {'TP': 132, 'FP': 0, 'TN': 8868, 'FN': 0}
+User-level confusion matrix: {'TP': 2, 'FP': 0, 'TN': 8, 'FN': 0}
+User latency avg hours: 0.0
+User P001: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P011: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P026: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P027: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P042: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P043: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P065: actual_scam_user=1 predicted_scam_user=1 correct=1
+User P076: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P085: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P100: actual_scam_user=1 predicted_scam_user=1 correct=1
+TP/FP user explanations:
+User P065 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $-0.57 (2024-04-08 19:13:55, TX00076309) to $18.96 (2024-04-13 19:53:18, TX00077101). This change may indicate a potential fraudulent trend and is worth reviewing.
+User P100 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $1.16 (2024-04-18 09:55:33, TX00077817) to $8.99 (2024-04-21 09:40:03, TX00078335). This change may indicate a potential fraudulent trend and is worth reviewing.
+
+Iteration 3/5
+Time: 25.5517 sec
+Threshold: 0.010
+Transaction-level confusion matrix: {'TP': 132, 'FP': 0, 'TN': 8868, 'FN': 0}
+User-level confusion matrix: {'TP': 2, 'FP': 0, 'TN': 8, 'FN': 0}
+User latency avg hours: 0.0
+User P005: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P007: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P019: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P031: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P049: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P056: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P071: actual_scam_user=1 predicted_scam_user=1 correct=1
+User P079: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P085: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P099: actual_scam_user=1 predicted_scam_user=1 correct=1
+TP/FP user explanations:
+User P071 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $-0.32 (2024-05-29 09:35:06, TX00084542) to $19.13 (2024-05-30 17:08:10, TX00084796). This change may indicate a potential fraudulent trend and is worth reviewing.
+User P099 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $2.11 (2024-06-22 11:28:22, TX00088535) to $17.76 (2024-06-22 15:45:06, TX00088607). This change may indicate a potential fraudulent trend and is worth reviewing.
+
+Iteration 4/5
+Time: 25.2444 sec
+Threshold: 0.010
+Transaction-level confusion matrix: {'TP': 132, 'FP': 0, 'TN': 8868, 'FN': 0}
+User-level confusion matrix: {'TP': 2, 'FP': 0, 'TN': 8, 'FN': 0}
+User latency avg hours: 0.0
+User P022: actual_scam_user=1 predicted_scam_user=1 correct=1
+User P041: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P044: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P045: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P052: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P062: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P071: actual_scam_user=1 predicted_scam_user=1 correct=1
+User P077: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P084: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P095: actual_scam_user=0 predicted_scam_user=0 correct=1
+TP/FP user explanations:
+User P022 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $0.30 (2024-05-16 13:34:52, TX00082479) to $14.53 (2024-05-16 19:47:50, TX00082548). This change may indicate a potential fraudulent trend and is worth reviewing.
+User P071 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $-0.37 (2024-05-29 09:35:06, TX00084542) to $18.41 (2024-05-30 17:08:10, TX00084796). This change may indicate a potential fraudulent trend and is worth reviewing.
+
+Iteration 5/5
+Time: 25.2279 sec
+Threshold: 0.010
+Transaction-level confusion matrix: {'TP': 132, 'FP': 0, 'TN': 8868, 'FN': 0}
+User-level confusion matrix: {'TP': 2, 'FP': 0, 'TN': 8, 'FN': 0}
+User latency avg hours: 0.0
+User P020: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P036: actual_scam_user=1 predicted_scam_user=1 correct=1
+User P043: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P070: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P077: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P084: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P088: actual_scam_user=1 predicted_scam_user=1 correct=1
+User P090: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P091: actual_scam_user=0 predicted_scam_user=0 correct=1
+User P097: actual_scam_user=0 predicted_scam_user=0 correct=1
+TP/FP user explanations:
+User P036 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $3.11 (2024-06-22 18:03:18, TX00088631) to $17.51 (2024-06-23 15:52:53, TX00088795). This change may indicate a potential fraudulent trend and is worth reviewing.
+User P088 [TP] - Unusual spending detected: Your transactions in the Fees/Penalties category increased from $1.22 (2024-06-13 17:38:27, TX00087134) to $17.33 (2024-06-20 19:55:12, TX00088309). This change may indicate a potential fraudulent trend and is worth reviewing.
+
+Best model iteration: 1 (least user FN, then user FP)
+Best user-level confusion: {'TP': 2, 'FP': 0, 'TN': 8, 'FN': 0}
+Best transaction-level confusion: {'TP': 132, 'FP': 0, 'TN': 8868, 'FN': 0}
+Saved model: nn_rnn.pkl
+Saved audit: evaluation_audit_DS1.csv
