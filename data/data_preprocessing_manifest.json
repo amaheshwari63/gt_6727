@@ -1,0 +1,28 @@
+{
+  "seed": 67270308,
+  "inputs": {
+    "ds1": "data/cs6727_DS1.csv",
+    "ds2": "data/cs6727_DS2.csv"
+  },
+  "outputs": {
+    "data/cs6727_DS1_PP.csv": {
+      "rows": 90000,
+      "users": 100,
+      "fraud_users": 20,
+      "date_min": "2023-01-01T08:01:35",
+      "date_max": "2024-06-30T20:57:59",
+      "sha256": "bb8465127af6ef008f93a9336cdeb95ebeee39a6ca8a6026d63437a85086625b"
+    },
+    "data/cs6727_DS2_PP.csv": {
+      "rows": 90000,
+      "users": 100,
+      "fraud_users": 20,
+      "date_min": "2023-01-01T08:09:05",
+      "date_max": "2024-06-30T20:46:55",
+      "sha256": "4ab064d274388d578367acddc4d0cfd4f69aa5c783a27100f07c25f4684cd5d8"
+    }
+  },
+  "notes": {
+    "duplicate_new_payee_resolution": "Used new_payee as 30-day definition (latest prompt line) and preserved first-ever signal as new_payee_first_txn"
+  }
+}

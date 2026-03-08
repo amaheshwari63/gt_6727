@@ -1,0 +1,48 @@
+{
+  "seed": 67270308,
+  "input": "data/reference-person-age-ranges-2024.xlsx",
+  "annual_means": {
+    "65-74": 65354.0,
+    "75+": 55834.0
+  },
+  "scam_users": [
+    "P002",
+    "P017",
+    "P021",
+    "P022",
+    "P029",
+    "P030",
+    "P036",
+    "P039",
+    "P050",
+    "P053",
+    "P054",
+    "P065",
+    "P066",
+    "P067",
+    "P071",
+    "P083",
+    "P088",
+    "P089",
+    "P099",
+    "P100"
+  ],
+  "outputs": {
+    "data/cs6727_DS1.csv": {
+      "rows": 90000,
+      "users": 100,
+      "fraud_users": 20,
+      "date_min": "2023-01-01T08:01:35",
+      "date_max": "2024-06-30T20:57:59",
+      "sha256": "4ecb60b0954b1a2e34127ee077ba0697180e941ffec226be88b937342875731d"
+    },
+    "data/cs6727_DS2.csv": {
+      "rows": 90000,
+      "users": 100,
+      "fraud_users": 20,
+      "date_min": "2023-01-01T08:09:05",
+      "date_max": "2024-06-30T20:46:55",
+      "sha256": "0bea057299f52755a8303f7c96779ddbfce2fd3b8e7f7dd87ab847fdbf11cf2c"
+    }
+  }
+}
