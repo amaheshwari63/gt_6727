@@ -1,0 +1,22 @@
+{
+  "model_iteration": 1,
+  "threshold": 0.9,
+  "transaction_confusion": {
+    "TP": 4577,
+    "FP": 36,
+    "TN": 84324,
+    "FN": 1063
+  },
+  "user_confusion": {
+    "TP": 20,
+    "FP": 19,
+    "TN": 61,
+    "FN": 0
+  },
+  "user_latency_hours_avg": 2264.5460833333336,
+  "rows": 90000,
+  "users": 100,
+  "data_path": "../data/cs6727_DS2_PP.csv",
+  "model_path": "../training/nn_rnn.pkl",
+  "audit_path": "evaluation_audit_DS2.csv"
+}
